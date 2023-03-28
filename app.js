@@ -70,4 +70,4 @@ function LimparGame(){
   for(let c=0; c<9; c++){
     opcao[c].textContent=''
 }
-count=1}
+}
