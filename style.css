@@ -14,6 +14,7 @@
    text-align: center;
 
  }
+
  section{
     position: absolute;
     top: 50%;
@@ -25,7 +26,32 @@
     max-height: 500px;
     max-width: 500px;
  }
+ #mod_game{
+ display: block;
+ background-color: burlywood;
+ font-family: var(--globalfont);
+   
+}
+#mod_game h1 {
+   text-align: center;
+}
+#mod_game div  {
+   margin-left:130px;
+   margin-top: 80px;
+}
+#mod_game p {
+   text-align: center;
+   position: absolute;
+   bottom: 0;
+   left: 27%;
+}
+.mod{
+   margin-left: 190px;
+   margin-top: 15px;
+ 
+}
  #caixa{
+   display: none;
    font-family: var(--globalfont);
    text-align: center;
    display:grid;
@@ -77,7 +103,7 @@
    }
  }
  .container {
-    display: grid;
+    display: none;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 100px);
     grid-gap: 0px;
