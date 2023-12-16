@@ -214,3 +214,5 @@ function Verificar_vencedor(){
           opcao[c].textContent = '';
       }
     }
+
+
